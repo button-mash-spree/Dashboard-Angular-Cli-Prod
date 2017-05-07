@@ -1,1 +1,93 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    height: 100vh;
+    width: 100vw;
+    color: #b5a227;
+    background-color: #081730;
+    overflow:hidden
+}
+
+select {
+  border: 1px solid #b5a227;
+  border-radius: 5px;
+  font-size: 3vh;
+  background: transparent;
+  padding: 5px 35px 5px 5px;
+  color:#b5a227;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url('./assets/img/chevron-down.svg') no-repeat center right;
+}
+
+select option { color: #b5a227; }
+
+select option:first-child{
+  color: #b5a227;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+input{
+    height: 6vh;
+    border: 1px solid #b5a227;
+    border-right-width: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    vertical-align: bottom;
+    margin-right: 0px;
+    font-size: 3vh;
+    padding: 5px 5px 5px 5px;
+    color: #b5a227;
+    background: transparent;
+}
+
+.todo-item {
+    width: 30vw;
+    color: #b5a227;
+    background: transparent;
+    padding: 10px 10px 10px 10px;
+}
+
+.add-button{
+    width: 5vw;
+    height: 6vh;
+    border: 1px solid #b5a227;    
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    line-height: 3vh;
+    font-size: 3vh;
+    color: #b5a227;
+    background: transparent;
+}
+
+.icon-button{
+    color: #b5a227;
+    background: transparent;
+    border: none;
+    float: left;
+    line-height: 2vh;
+    font-size: 2vh;
+}
+img{
+    width: 15vw;
+    height: 15vh;
+    vertical-align: middle;
+}
+.striken{
+    text-decoration: line-through;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
